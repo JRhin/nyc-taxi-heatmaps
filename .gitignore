@@ -12,4 +12,4 @@ wheels/
 # Other stuff
 data/*
 
-!data/yellow_tripdata_2009.parquet
+!data/yellow_tripdata_2009_sampled_1000000_seed_42.parquet
