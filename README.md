@@ -16,10 +16,6 @@ A Python script to download monthly TLC Yellow Taxi Trip Record datasets in Parq
 
 ### Data Visualization (`visualize_pickups.py`)
 
-<div>
-  <img src=".\img\pickups.png" alt="pickups heatmap" width=100%/>
-</div>
-
 A Python script to load the downloaded taxi data and visualize pickup densities across New York City.
 
 - Loads trip data from Parquet files using Polars.
@@ -29,6 +25,11 @@ A Python script to load the downloaded taxi data and visualize pickup densities 
 - Generates a heatmap using Matplotlib and saves it to `img/pickups.png`.
 
 👉 In short: Produces a heatmap of NYC yellow taxi pickup densities (2009–2025).
+
+<div>
+  <img src=".\img\pickups.png" alt="pickups heatmap" width=100%/>
+</div>
+
 
 ## Dependencies
 
