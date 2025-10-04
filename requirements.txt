@@ -105,7 +105,7 @@ fonttools==4.60.1 \
 graphviz==0.21 \
     --hash=sha256:20743e7183be82aaaa8ad6c93f8893c923bd6658a04c32ee115edb3c8a835f78 \
     --hash=sha256:54f33de9f4f911d7e84e4191749cac8cc5653f815b06738c54db9a15ab8b1e42
-    # via taxi-data
+    # via nyc-taxi-heatmaps
 kiwisolver==1.4.9 \
     --hash=sha256:0749fd8f4218ad2e851e11cc4dc05c7cbc0cbc4267bdfdb31782e65aace4ee9c \
     --hash=sha256:0763515d4df10edf6d06a3c19734e2566368980d21ebec439f33f9eb936c07b7 \
@@ -210,7 +210,7 @@ matplotlib==3.10.6 \
     --hash=sha256:f44c8d264a71609c79a78d50349e724f5d5fc3684ead7c2a473665ee63d868aa \
     --hash=sha256:f56a0d1ab05d34c628592435781d185cd99630bdfd76822cd686fb5a0aecd43a \
     --hash=sha256:f9c862d91ec0b7842920a4cfdaaec29662195301914ea54c33e01f1a28d014b2
-    # via taxi-data
+    # via nyc-taxi-heatmaps
 numpy==2.3.3 \
     --hash=sha256:067e3d7159a5d8f8a0b46ee11148fc35ca9b21f61e3c49fbd0a027450e65a33b \
     --hash=sha256:0edd58682a399824633b66885d699d7de982800053acf20be1eaa46d92009c54 \
@@ -271,7 +271,7 @@ numpy==2.3.3 \
     # via
     #   contourpy
     #   matplotlib
-    #   taxi-data
+    #   nyc-taxi-heatmaps
 packaging==25.0 \
     --hash=sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484 \
     --hash=sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f
@@ -340,7 +340,7 @@ pillow==11.3.0 \
 polars==1.34.0 \
     --hash=sha256:40d2f357b4d9e447ad28bd2c9923e4318791a7c18eb68f31f1fbf11180f41391 \
     --hash=sha256:5de5f871027db4b11bcf39215a2d6b13b4a80baf8a55c5862d4ebedfd5cd4013
-    # via taxi-data
+    # via nyc-taxi-heatmaps
 polars-runtime-32==1.34.0 \
     --hash=sha256:2501d6b29d9001ea5ea2fd9b598787e10ddf45d8c4a87c2bead75159e8a15711 \
     --hash=sha256:2878f9951e91121afe60c25433ef270b9a221e6ebf3de5f6642346b38cab3f03 \
@@ -365,4 +365,4 @@ six==1.17.0 \
 tqdm==4.67.1 \
     --hash=sha256:26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2 \
     --hash=sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2
-    # via taxi-data
+    # via nyc-taxi-heatmaps
